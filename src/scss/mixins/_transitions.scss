@@ -1,4 +1,3 @@
-
 @mixin transition-effect($property: all, $time: 0.5s, $direction: ease) {
   -webkit-transition: $property $time $direction; /* Safari and Chrome */
   -moz-transition: $property $time $direction; /* Firefox */
