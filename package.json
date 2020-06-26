@@ -1,5 +1,5 @@
 {
-  "name": "bigbinary-interview-for-sidhant-dhar",
+  "name": "react-starting-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,8 +35,6 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.3.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.21.2",
