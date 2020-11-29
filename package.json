@@ -1,17 +1,26 @@
 {
-  "name": "react-starting-template",
+  "name": "lawjinn",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
     "bootstrap": "^4.5.0",
+    "downloadjs": "^1.4.7",
+    "formik": "^2.2.1",
+    "js-file-download": "^0.4.12",
     "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "yup": "^0.29.3"
   },
   "scripts": {
     "start": "react-scripts start",

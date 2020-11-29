@@ -1,0 +1,20 @@
+:root {
+  --primary-blue: rgb(49, 82, 235);
+  --lighter-blue: rgba(127, 196, 253, 1);
+  --lightest-blue: rgba(188, 224, 253, 1);
+  --superlight-blue: rgba(241, 249, 255, 1);
+}
+
+.btn-outlinePrimary {
+  border-radius: 20px;
+  border: 1px solid var(--primary-blue);
+  background-color: #fff;
+  color: var(--primary-blue, rgba(49, 82, 235, 1));
+  font-family: 'Montserrat-Medium';
+  font-size: 18px;
+  line-height: 22px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  height: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+}

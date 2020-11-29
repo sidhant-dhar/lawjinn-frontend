@@ -1,0 +1,51 @@
+.FormTemplate {
+  @import '../../scss/bootstrap';
+
+  &__input {
+    width: 80%;
+
+    @include media-breakpoint-up(md) {
+      width: 100%;
+    }
+  }
+
+  &__select {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Montserrat-Regular';
+    padding: 6px 12px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 900;
+    opacity: 0.7;
+    width: 100%;
+  }
+
+  &__hasError {
+    box-shadow: 0px 0px 10px 5px rgba(220, 53, 69, 1);
+  }
+
+  &__label {
+    font-family: 'Montserrat-SemiBold';
+    @include media-breakpoint-up(md) {
+      font-size: $spacer * 1.5;
+    }
+  }
+
+  &__factsCard {
+    font-family: $regular;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.65);
+  }
+
+  &__closeButton {
+    height: 20px;
+    width: 20px;
+  }
+
+  &__additonalFactsHeading {
+    font-family: $semiBold;
+    @include media-breakpoint-up(md) {
+      font-size: $spacer * 1.25;
+    }
+  }
+}
